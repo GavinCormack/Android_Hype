@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Fragment_Canvas_ImageView_Image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/mona_lisa"/>
+
+    <com.example.hype._DrawingCanvas
+        android:id="@+id/Fragment_Canvas_Hype_DrawingCanvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/Fragment_Canvas_Button_Undo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/Fragment_Canvas_Button_Palette"
+        android:gravity="right|center_vertical"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:shadowColor="@color/hype_black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@color/hype_white"
+        android:textSize="30sp"
+        android:text="@string/icon_undo"/>
+
+    <Button
+        android:id="@+id/Fragment_Canvas_Button_Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="left|center_vertical"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:shadowColor="@color/hype_black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@color/hype_white"
+        android:textSize="30sp"
+        android:text="@string/icon_back"/>
+
+    <Button
+        android:id="@+id/Fragment_Canvas_Button_Palette"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:gravity="right|center_vertical"
+        android:minWidth="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:shadowColor="@color/hype_black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@color/hype_blue"
+        android:textSize="30sp"
+        android:text="@string/icon_circle"/>
+
+    <LinearLayout
+        android:id="@+id/Fragment_Canvas_LinearLayout_Dropdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Fragment_Canvas_Button_Palette"
+        android:layout_alignLeft="@+id/Fragment_Canvas_Button_Palette"
+        android:layout_alignRight="@+id/Fragment_Canvas_Button_Palette"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:visibility="gone"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/Fragment_Canvas_Button_PaletteBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:shadowColor="@color/hype_black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:textSize="30sp"
+            android:textColor="@color/hype_blue"
+            android:text="@string/icon_circle"/>
+
+        <Button
+            android:id="@+id/Fragment_Canvas_Button_PaletteRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:shadowColor="@color/hype_black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:textSize="30sp"
+            android:textColor="@color/hype_red"
+            android:text="@string/icon_circle"/>
+
+        <Button
+            android:id="@+id/Fragment_Canvas_Button_PaletteYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:shadowColor="@color/hype_black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:textSize="30sp"
+            android:textColor="@color/hype_yellow"
+            android:text="@string/icon_circle"/>
+
+        <Button
+            android:id="@+id/Fragment_Canvas_Button_PaletteGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:shadowColor="@color/hype_black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:textSize="30sp"
+            android:textColor="@color/hype_green"
+            android:text="@string/icon_circle"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Fragment_Canvas_Button_Ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="right|center_vertical"
+        android:layout_marginBottom="5dp"
+        android:background="@null"
+        android:shadowColor="@color/hype_black"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@color/hype_white"
+        android:textSize="40sp"
+        android:text="@string/icon_pic_ok"/>
+
+</RelativeLayout>

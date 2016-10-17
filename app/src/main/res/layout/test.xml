@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/hype_white"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center" >
+
+        <ImageButton
+            android:id="@+id/ListView_Post_ImageButton_PostImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:focusable="false"
+            android:src="@android:drawable/btn_star_big_on"/>
+
+        <Button
+            android:id="@+id/ListView_Post_Button_Views"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ListView_Post_ImageButton_PostImage"
+            android:minHeight="5dp"
+            android:background="@null"
+            android:focusable="false"
+            android:text="Views"/>
+
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ListView_Post_LinearLayout_MainSection"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ListView_Post_LinearLayout_TopLine"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ListView_Post_Button_Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|center_vertical"
+                android:minHeight="5dp"
+                android:layout_margin="10dp"
+                android:background="@null"
+                android:focusable="false"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Username"/>
+
+            <TextView
+                android:id="@+id/ListView_Post_TextView_Expire"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="right|center_vertical"
+                android:textSize="12sp"
+                android:text="Expire"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ListView_Post_TextView_Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:text="Caption"/>
+
+        <TextView
+            android:id="@+id/ListView_Post_TextView_Tags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/hype_grey"
+            android:textSize="12sp"
+            android:text="Tags"/>
+
+        <LinearLayout
+            android:id="@+id/ListView_Post_LinearLayout_BottomLine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ListView_Post_Button_Like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:minHeight="10dp"
+                android:padding="5dp"
+                android:focusable="false"
+                android:textSize="20sp"
+                android:text="@string/icon_heart"/>
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/ListView_Post_Button_React"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:minHeight="10dp"
+                android:padding="5dp"
+                android:focusable="false"
+                android:textSize="20sp"
+                android:text="@string/icon_reactions"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

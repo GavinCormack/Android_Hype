@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <TextureView
+        android:id="@+id/Fragment_Camera_TextureView_CameraPreview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/Fragment_Camera_Button_Ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:background="@null"
+        android:shadowColor="@color/hype_black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textSize="60sp"
+        android:textColor="@color/hype_white"
+        android:text="@string/icon_camera_circle" />
+
+    <Button
+        android:id="@+id/Fragment_Camera_Button_Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="left|center_vertical"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:shadowColor="@color/hype_black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@color/hype_white"
+        android:textSize="30sp"
+        android:text="@string/icon_back"/>
+
+    <Button
+        android:id="@+id/Fragment_Camera_Button_Rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:gravity="right|center_vertical"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:shadowColor="@color/hype_black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:textColor="@color/hype_white"
+        android:textSize="30sp"
+        android:text="@string/icon_rotate_camera"/>
+
+
+</RelativeLayout>

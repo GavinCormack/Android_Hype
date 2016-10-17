@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hype_white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/Activity_Main_LinearLayout_FragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/hype_grey"/>
+
+
+    <LinearLayout
+        android:id="@+id/Activity_Main_LinearLayout_TabBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hype_white"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Activity_Main_Button_Messages"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/tab_messages_selector"
+            android:textSize="20sp"
+            android:textColor="@color/hype_grey"
+            android:text="@string/icon_messages"/>
+
+        <Button
+            android:id="@+id/Activity_Main_Button_Newsfeed"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/tab_newsfeed_selector"
+            android:textSize="20sp"
+            android:textColor="@color/hype_grey"
+            android:text="@string/icon_house" />
+
+        <Button
+            android:id="@+id/Activity_Main_Button_Discover"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/tab_discover_selector"
+            android:textSize="20sp"
+            android:textColor="@color/hype_grey"
+            android:text="@string/icon_search" />
+
+        <Button
+            android:id="@+id/Activity_Main_Button_More"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/tab_more_selector"
+            android:textSize="20sp"
+            android:textColor="@color/hype_grey"
+            android:text="@string/icon_more" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

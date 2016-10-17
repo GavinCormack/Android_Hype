@@ -1,0 +1,11 @@
+<resources>
+
+    <color name="hype_white">#FFFFFF</color>
+    <color name="hype_black">#000000</color>
+    <color name="hype_red">#f90101</color>
+    <color name="hype_green">#00933b</color>
+    <color name="hype_blue">#0266c8</color>
+    <color name="hype_yellow">#f2b50f</color>
+    <color name="hype_grey">#808080</color>
+
+</resources>

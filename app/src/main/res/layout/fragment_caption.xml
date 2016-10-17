@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical" >
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/Fragment_Caption_EditText_Caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/credentials_editext_background"
+        android:hint="Caption..." />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"/>
+
+
+    <Button
+        android:id="@+id/Fragment_Caption_Button_Tags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="With..."/>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"/>
+
+
+    <Switch
+        android:id="@+id/Fragment_Caption_Switch_Group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textOff="No"
+        android:textOn="Yes"
+        android:text="Group? "/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/Fragment_Caption_Button_Post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Post"/>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hype_white"
+    android:orientation="vertical" >
+
+
+    <EditText
+        android:id="@+id/Fragment_Login_EditText_Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:singleLine="true"
+        android:background="@drawable/credentials_editext_background"
+        android:textColor="@color/hype_grey"
+        android:textColorHint="@color/hype_grey"
+        android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/Fragment_Login_EditText_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:singleLine="true"
+        android:background="@drawable/credentials_editext_background"
+        android:textColor="@color/hype_grey"
+        android:textColorHint="@color/hype_grey"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/Fragment_Login_Button_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/credentials_button_background"
+        android:textColor="@color/hype_white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        style="@style/Base.TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/Fragment_Login_Button_ForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        style="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@color/hype_grey"
+        android:textSize="15sp"
+        android:background="@null"
+        android:text="Forgot password?" />
+
+    <TextView
+        android:id="@+id/Fragment_Login_TextView_Or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/hype_grey"
+        android:layout_gravity="center_horizontal"
+        android:text="---------- or ----------" />
+
+    <Button
+        android:id="@+id/Fragment_Login_Button_Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        style="@style/Base.TextAppearance.AppCompat"
+        android:textColor="@color/hype_grey"
+        android:textSize="15sp"
+        android:text="Register" />
+
+
+</LinearLayout>

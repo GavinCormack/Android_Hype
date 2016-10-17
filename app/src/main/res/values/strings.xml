@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Hype</string>
+
+
+    <string name="title_activity_activity__credentials">Activity_Credentials</string>
+    <string name="title_activity_activity__main">Activity_Main</string>
+
+    <string name="hype_title"><b><i>Hype</i></b></string>
+
+    <string name="icon_back"> <b> \uE800 </b> </string>
+    <string name="icon_bell"> <b> \uE801 </b> </string>
+    <string name="icon_camera"> <b> \uE802 </b> </string>
+    <string name="icon_camera_circle"> <b> \uE803 </b> </string>
+    <string name="icon_circle"> <b> \uE804 </b> </string>
+    <string name="icon_eye"> <b> \uE805 </b> </string>
+    <string name="icon_forward"> <b> \uE806 </b> </string>
+    <string name="icon_group_chat"> <b> \uE807 </b> </string>
+    <string name="icon_heart"> <b> \uE808 </b> </string>
+    <string name="icon_hourglass"> <b> \uE809 </b> </string>
+    <string name="icon_house"> <b> \uE80A </b> </string>
+    <string name="icon_lock"> <b> \uE80B </b> </string>
+    <string name="icon_search"> <b> \uE80C </b> </string>
+    <string name="icon_messages"> <b> \uE80D </b> </string>
+    <string name="icon_more"> <b> \uE80E </b> </string>
+    <string name="icon_palette"> <b> \uE80F </b> </string>
+    <string name="icon_people"> <b> \uE810 </b> </string>
+    <string name="icon_person"> <b> \uE811 </b> </string>
+    <string name="icon_pic_ok"> <b> \uE812 </b> </string>
+    <string name="icon_add"> <b> \uE813 </b> </string>
+    <string name="icon_rotate_camera"> <b> \uE814 </b> </string>
+    <string name="icon_settings"> <b> \uE815 </b> </string>
+    <string name="icon_reactions"> <b> \uE816 </b> </string>
+    <string name="icon_undo"> <b> \uE817 </b> </string>
+
+</resources>

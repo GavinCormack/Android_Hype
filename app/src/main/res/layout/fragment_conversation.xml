@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/Fragment_Conversation_ListView_Messages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:divider="@null"
+        android:layout_weight="1">
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/Fragment_Conversation_LinearLayout_BottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hype_blue"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/Fragment_Conversation_EditText_ComposeMessage"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/credentials_editext_background"
+            android:hint="Message..."/>
+
+        <Button
+            android:id="@+id/Fragment_Conversation_Button_SendMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textColor="@color/hype_white"
+            android:text="Send"/>
+
+    </LinearLayout>
+
+</LinearLayout>
